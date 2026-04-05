@@ -125,5 +125,3 @@ This setup ensures early drift detection and maintains infrastructure consistenc
 
 ## License
 This repository is for demonstration and portfolio purposes. It serves as a reference for large-scale AWS infrastructure migration to Terraform.
-
-```
