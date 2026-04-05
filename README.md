@@ -41,11 +41,21 @@ terraform/
 │   │   ├── variables.tf
 │   │   └── outputs.tf
 │   ├── ec2/
-│   ├── rds/
-│   └── ...
-│
+│   └── rds/
 └── accounts/
-    └── dev/
+    ├── dev/
+    │   ├── network/
+    │   ├── security/
+    │   ├── storage/
+    │   ├── compute/
+    │   │   ├── main.tf
+    │   │   ├── variables.tf
+    │   │   ├── outputs.tf
+    │   │   ├── terraform.tfvars
+    │   │   └── provider.tf
+    │   ├── observability/
+    │   └── dns/
+    └── prod/
         ├── network/
         ├── security/
         ├── storage/
